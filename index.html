@@ -1,189 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Veritate LLC</title>
+<title>Veritate LLC</title>
 
-  <meta name="description" content="Veritate LLC develops Catholic educational resources and applications, including Veritate: Confessio.">
+<style>
+*{
+    box-sizing:border-box;
+}
 
-  <style>
-    * {
-      box-sizing: border-box;
+body{
+    margin:0;
+    font-family:Georgia,serif;
+    background:#1b080c;
+    color:#f4ede7;
+    line-height:1.7;
+}
+
+.container{
+    max-width:900px;
+    margin:60px auto;
+    padding:40px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+h1,h2{
+    color:#d4af5b;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    margin-top:0;
+}
+
+.card{
+    background:#2a0d12;
+    border:1px solid #8b6a2b;
+    border-radius:12px;
+    padding:28px;
+    margin:24px 0;
+}
+
+.app-name{
+    color:#d4af5b;
+    font-size:1.5rem;
+    margin-bottom:8px;
+}
+
+.button-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    margin-top:28px;
+}
+
+.button{
+    display:inline-block;
+    background:#d4af5b;
+    color:#1b080c;
+    padding:12px 22px;
+    border:1px solid #d4af5b;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#f4ede7;
+    border-color:#f4ede7;
+}
+
+.secondary-button{
+    background:transparent;
+    color:#d4af5b;
+}
+
+.secondary-button:hover{
+    background:#d4af5b;
+    color:#1b080c;
+    border-color:#d4af5b;
+}
+
+a{
+    color:#d4af5b;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#c9bbb3;
+    font-size:.95rem;
+}
+
+@media(max-width:600px){
+    .container{
+        margin:20px auto;
+        padding:24px;
     }
 
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: #f4f1ea;
-      color: #1d1d1d;
-      line-height: 1.6;
+    h1{
+        font-size:2.3rem;
     }
 
-    header {
-      background: #111820;
-      color: white;
-      text-align: center;
-      padding: 70px 20px;
-      border-bottom: 5px solid #9b7a35;
+    .button{
+        width:100%;
+        text-align:center;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
-      letter-spacing: 3px;
-    }
-
-    header p {
-      margin: 12px 0 0;
-      font-size: 1.2rem;
-      color: #e5dfd2;
-    }
-
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 45px 20px;
-    }
-
-    section {
-      background: white;
-      margin-bottom: 25px;
-      padding: 30px;
-      border-radius: 8px;
-      border-top: 4px solid #9b7a35;
-      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    h2 {
-      margin-top: 0;
-      color: #111820;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 12px 20px;
-      background: #111820;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .button:hover {
-      background: #9b7a35;
-    }
-
-    footer {
-      background: #111820;
-      color: #ddd;
-      text-align: center;
-      padding: 25px 20px;
-    }
-
-    footer a {
-      color: white;
-      margin: 0 10px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
-
-      section {
-        padding: 22px;
-      }
-    }
-  </style>
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>VERITATE LLC</h1>
-    <p>Seeking truth with clarity, reverence, and purpose.</p>
-  </header>
+<div class="container">
 
-  <main>
+<header>
+    <h1>Veritate LLC</h1>
+    <p class="subtitle">Catholic tools rooted in truth, tradition, and reverence.</p>
+</header>
 
-    <section>
-      <h2>About Veritate LLC</h2>
-
-      <p>
-        Veritate LLC develops educational resources, digital applications,
-        podcasts, and media intended to help people pursue truth and understand
-        the Catholic faith.
-      </p>
-
-      <p>
-        Our work seeks to present serious subjects clearly, respectfully, and
-        faithfully.
-      </p>
-    </section>
-
-    <section>
-      <h2>Veritate: Confessio</h2>
-
-      <p>
-        Veritate: Confessio is a Catholic confession preparation application.
-        It helps users examine their conscience, prepare for the Sacrament of
-        Penance, review common prayers, and record an assigned penance.
-      </p>
-
-      <p>
-        The application includes guidance for both the traditional and modern
-        forms commonly encountered in Catholic confession.
-      </p>
-
-      <p>
-        Veritate: Confessio does not replace the counsel of a priest or the
-        Sacrament of Confession.
-      </p>
-    </section>
-
-    <section>
-      <h2>Application Support</h2>
-
-      <p>
-        For questions, technical assistance, or feedback regarding Veritate:
-        Confessio, contact Veritate LLC.
-      </p>
-
-      <a class="button" href="mailto:veritate@yahoo.com">
-        Contact Support
-      </a>
-
-      <p>
-        Email:
-        <a href="mailto:veritate@yahoo.com">veritate@yahoo.com</a>
-      </p>
-    </section>
-
-    <section>
-      <h2>Privacy</h2>
-
-      <p>
-        Veritate LLC respects the privacy of its users. Review the privacy
-        policy for information regarding application data and user privacy.
-      </p>
-
-      <a class="button" href="privacy.html">
-        View Privacy Policy
-      </a>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>© 2026 Veritate LLC. All rights reserved.</p>
+<div class="card">
+    <h2>About Veritate</h2>
 
     <p>
-      <a href="mailto:veritate@yahoo.com">Support</a>
-      <a href="privacy.html">Privacy Policy</a>
+        Veritate LLC develops digital resources designed to help Catholics understand, prepare for, and practice the faith with greater confidence.
     </p>
-  </footer>
+
+    <p>
+        Our work seeks to preserve Catholic tradition while using modern technology responsibly and respectfully.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Our App</h2>
+
+    <div class="app-name">Veritate: Confessio</div>
+
+    <p>
+        Veritate: Confessio helps Catholics prepare for the Sacrament of Reconciliation through guided examinations of conscience, confession preparation, traditional and modern confession formats, prayers, and spiritual guidance.
+    </p>
+
+    <p>
+        The app supports preparation for Confession. It does not replace a priest, sacramental confession, absolution, or pastoral care.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Support and Information</h2>
+
+    <p>
+        For assistance with Veritate: Confessio, contact Veritate LLC by email or review the Privacy Policy.
+    </p>
+
+    <div class="button-row">
+        <a class="button" href="mailto:veritate@yahoo.com">Contact Support</a>
+
+        <a class="button secondary-button" href="privacy.html">
+            Privacy Policy
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Veritate LLC. All rights reserved.</p>
+</footer>
+
+</div>
 
 </body>
 </html>
